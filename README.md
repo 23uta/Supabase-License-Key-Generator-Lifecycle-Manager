@@ -1,0 +1,1 @@
+# Supabase-License-Key-Generator-Lifecycle-Manager
