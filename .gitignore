@@ -1,0 +1,31 @@
+# --- Python Environment & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# --- Environment Secrets (Crucial) ---
+# Prevents exposing your Supabase private keys if moved to a config file
+.env
+.env.local
+.env.secret
+*.json
+!widgetSpec.json # Keep if you use specific widget definitions later
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
